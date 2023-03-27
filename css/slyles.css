@@ -278,7 +278,6 @@ body {
 /**---------------- team ------------------**/
 
 .team {
-  max-width: 1440px;
   background-color: var(--cloud-light);
   margin: 0 auto;
 }
@@ -407,9 +406,7 @@ body {
 /**------------- footer ---------------**/
 
 .footer {
-  max-width: 1440px;
   background-color: var(--grey-hero-background);
-  margin: 0 auto;
 }
 
 .footer-box {
@@ -493,7 +490,7 @@ body {
   height: 100%;
   background-color: rgba(46, 47, 66, 0.4);
 
-  transition: opacity var(--timing-function), visability var(--timing-function);
+  transition: opacity var(--timing-function), visibility var(--timing-function);
 }
 
 .backdrop.is-hidden {
@@ -645,7 +642,7 @@ body {
   font-size: 16px;
   padding: 40px 32px;
   line-height: 1.5;
-  overflow-y: scroll;
+  overflow-y: auto;
 
   background-color: var(--iris-primary-brand);
   transition: transform var(--timing-function);
